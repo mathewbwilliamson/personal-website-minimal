@@ -93,9 +93,20 @@ ul {
   margin-bottom: 15px;
   background-color: #5c5c5c;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 13px;
 }
 
 li > a {
   color: #cacaca;
+}
+
+.aboutMe {
+  height: 75vh;
+}
+
+.divider {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  background-color: #5c5c5c;
+  padding-bottom: 4px;
 }
