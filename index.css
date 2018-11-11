@@ -70,8 +70,7 @@ a {
 
 .bold {
   font-family: inherit;
-  font-size: 1.15em;
-  line-height: 1.125em;
+  font-size: 1.1em;
   font-weight: 700;
   color: #9a9a9a;
 }
@@ -161,6 +160,46 @@ li:hover .custom-underline::after {
   background-color: #5c5c5c;
   padding-bottom: 4px;
 }
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(1, auto);
+  border: solid 1px rgb(202, 202, 202);
+  margin: 40px;
+  width: 80vw; 
+  padding: 20px;
+}
+
+.project_content p {
+  display: block;
+  text-align: left;
+  margin: 0 20px 0 20px;
+  line-height: 1.4rem;
+  padding-top: 12px
+}
+
+.project_content a {
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+.project_content a:hover {
+  color: rgb(202, 202, 202);
+}
+
+.project img {
+  width: 30vw;
+  height: auto;
+  grid-column: 1;
+  grid-row: 1 / span 10;
+}
+
 
 .icon {
   height: 48px;
