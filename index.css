@@ -284,6 +284,11 @@ li:hover .custom-underline::after {
   grid-column: 8 / span 8;
   grid-row-start: 8;
 }
+
+.workWithMe a {
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
 .workWithMe a:hover {
   color: rgb(202, 202, 202);
 }
