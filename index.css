@@ -280,3 +280,6 @@ li:hover .custom-underline::after {
   grid-column: 8 / span 8;
   grid-row-start: 8;
 }
+.workWithMe a:hover {
+  color: rgb(202, 202, 202);
+}
