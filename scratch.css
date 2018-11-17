@@ -1,0 +1,84 @@
+div {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.break {
+  height: 30px;
+}
+
+.m {
+  color: red;
+}
+
+.w {
+  color: black;
+}
+
+.one{
+  font-family: 'Roboto', sans-serif;
+}
+.two{
+  font-family: 'Open Sans', sans-serif;
+}
+.three{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.four{
+  font-family: 'Allerta Stencil', sans-serif;
+}
+.five{
+  font-family: 'Oswald', sans-serif;
+}
+.six{
+  font-family: 'Raleway', sans-serif;
+}
+.seven{
+  font-family: 'Raleway', sans-serif;
+}
+.seven.m {
+  transform: rotate(90deg);
+  text-align: right;
+  line-height: .8;
+  padding: 0;
+  margin: -4px 2px -11px -4px;
+}
+
+.diamond {
+  height: 50px;
+  width: 50px;
+  border: gray 2px solid;
+  transform: rotate(45deg);
+}
+
+.largepointer {
+  width: 98vw;
+  height: 50vw;
+  transform: rotate(45deg);
+  transform-origin: top right;
+  border-right: solid black 2px;
+}
+.line {
+  position: relative;
+  width: 30px;
+  border-bottom: solid gray 3px;
+  margin-top: 
+}
+.eight{
+  font-family: 'Playfair Display', serif;
+}
+.nine{
+  font-family: 'Ranga', cursive;
+}
+.ten{
+  font-family: 'Federant', cursive;
+}
+.eleven{
+  font-family: 'Dosis', sans-serif;
+}
+.twelve{
+  font-family: 'Hind', sans-serif;
+}
+.thirteen{
+  font-family: 'KoHo', sans-serif;
+}
