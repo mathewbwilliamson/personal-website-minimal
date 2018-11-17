@@ -44,20 +44,30 @@ div {
   margin: -4px 2px -11px -4px;
 }
 
-.diamond {
+/* .diamond {
   height: 50px;
   width: 50px;
   border: gray 2px solid;
   transform: rotate(45deg);
+} */
+
+/* The 2nd below is responsive through the middle of the box, the first is responsive from corner to corner*/
+.largepointer {
+  height:100px;
+  margin-bottom:2em;
+  border:1px solid #aaa;
+  width:25%;
+  /* background: linear-gradient(to top right, #fff calc(50% - 1px), #aaa, #fff calc(50% + 1px) ) */
+  background:linear-gradient(45deg,#ffffff 49%,#aaa 50%,#ffffff 51%);
 }
 
-.largepointer {
+/* .largepointer {
   width: 98vw;
   height: 50vw;
   transform: rotate(45deg);
   transform-origin: top right;
   border-right: solid black 2px;
-}
+} */
 .line {
   position: relative;
   width: 30px;
